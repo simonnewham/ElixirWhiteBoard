@@ -1,0 +1,97 @@
+/* This file is for your main application css. */
+h1, h2, h3, h4, h5, h6{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#canvas{
+
+  background-color: white;
+  border: outset;
+  height: 95%;
+  width:  95%;
+
+}
+
+#clear{
+
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+#clear:hover{
+    color: red;  
+    background-color: white;
+}
+
+#black{
+	
+    background-color: #000000;
+    border: none;
+    color:  #000000;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+
+#black:hover{
+    color: white;  
+}
+
+#red{
+
+	background-color: #f44336;
+    border: none;
+    color: #f44336;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  
+}
+#red:hover{
+    color: white;  
+}
+
+#blue{
+
+	background-color: #008CBA;
+    border: none;
+    color: #008CBA;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#blue:hover{
+    color: white;  
+}
+
+#display{
+
+  border: outset;
+  height: 50vh;
+  width: 95%;
+  padding: 0px;
+  overflow: scroll;
+ 
+}
+/*1px solid #777*/
